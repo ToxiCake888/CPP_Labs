@@ -33,35 +33,35 @@ void Convertation(string a) {
         cout << years * 365;
     }
 
-    if (a == "Дни в часы")
+    else if (a == "Дни в часы")
     {
         cout << "Введи дни ";
         cin >> days;
         cout << days * 24;
     }
 
-    if (a == "Дни в минуты")
+    else if (a == "Дни в минуты")
     {
         cout << "Введи дни ";
         cin >> days;
         cout << days * 24 * 60;
     }
 
-    if (a == "Часы в минуты")
+    else if (a == "Часы в минуты")
     {
         cout << "Введи часы ";
         cin >> hours;
         cout << hours * 60;
     }
 
-    if (a == "Часы в секунды")
+    else if (a == "Часы в секунды")
     {
         cout << "Введи часы ";
         cin >> hours;
         cout << hours * 60 * 60;
     }
 
-    if (a == "Минуты в секунды")
+    else if (a == "Минуты в секунды")
     {
         cout << "Введи минуты ";
         cin >> minutes;

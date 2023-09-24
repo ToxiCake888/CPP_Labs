@@ -1,8 +1,10 @@
 ﻿#include <iostream>
-#include "Source1.cpp"
-void circle_stats();
+//#include "Source1.cpp"
+#include "Header1.h"
+//void circle_stats();
 
-void main() {
+int main() {
 	circle_stats();
+	return 1;
 }
 
