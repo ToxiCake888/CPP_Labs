@@ -4,7 +4,7 @@
 //void circle_stats();
 
 int main() {
-	circle_stats();
+	circle_stats();		//Source1 не подключен КАК ОНО РАБОТАЕТ????????????????
 	return 1;
 }
 
