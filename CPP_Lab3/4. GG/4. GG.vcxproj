@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dfa7eeba-f64e-4a7b-ac48-529f5d3e8a36}</ProjectGuid>
-    <RootNamespace>My4AnyscaletoAnyscale</RootNamespace>
+    <ProjectGuid>{f66d6d65-17d3-45d9-bf6a-30eeeb1059cc}</ProjectGuid>
+    <RootNamespace>My4GG</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="4. Any scale to Any scale.cpp" />
+    <ClCompile Include="4. GG.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
