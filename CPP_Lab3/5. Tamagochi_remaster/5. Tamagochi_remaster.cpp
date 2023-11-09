@@ -15,7 +15,7 @@ int main() {
 	choice = check_num();
 	if (choice == 2) 
 	{
-		cout << stats << endl;								//killmepls    decode stats here IMPORTANT!!!!!!!!!!!!!!!!
+		cout << stats << endl;								//   decode stats here IMPORTANT!!!!!!!!!!!!!!!!
 		cout << "is eated an apple? " << decoder(stats[3]) <<endl;
 		cout << "is taked cure? " << decoder(stats[2]) << endl;
 		cout << "is clean? " << decoder(stats[1]) << endl;
