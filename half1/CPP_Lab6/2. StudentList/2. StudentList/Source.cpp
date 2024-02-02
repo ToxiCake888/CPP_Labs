@@ -40,6 +40,7 @@ public:
 		KT1 = Add_kt1;
 		KT2 = Add_kt2;
 		Total = (KT1 + KT2) / 2;
-		if (Total > 50) { automarc = true; }
+		if (((KT1 + KT2) / 2) > 50) { automarc = true; }
+		else { automarc = false; }
 	}
 };

@@ -50,11 +50,12 @@ int main()
             break;
         }
 
+        int day_expenses = 0;
         string checker;
         for (int j = 0; j < 10; j++)
         {
 
-            int day_expenses = 0;
+
             cin >> checker;
 
             try
