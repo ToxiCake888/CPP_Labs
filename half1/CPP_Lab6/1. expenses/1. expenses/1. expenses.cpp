@@ -31,11 +31,12 @@ int main()
             break;
         }
 
+        int day_expenses = 0;
         string checker;
         for (int j = 0; j < 10; j++)
         {
 
-            int day_expenses=0;
+            
             cin >> checker;
 
             try
@@ -101,6 +102,7 @@ int main()
             }
             if (day_expenses > max_expenses) max_expenses = day_expenses;
             if (day_expenses < min_expenses) min_expenses = day_expenses;
+            cout << day_expenses;
         }
         cout << "\n";
     }

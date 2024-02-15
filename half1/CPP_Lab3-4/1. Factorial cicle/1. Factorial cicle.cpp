@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <clocale>
 using namespace std;
-int def_integrall(unsigned int number);				//dobavit cicle , end
+int def_integrall(unsigned int number);				
 
 
 int main() {
